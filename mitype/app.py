@@ -43,7 +43,7 @@ class App:
         self.tokens = self.text.split()
 
         # Squash multiple spaces, tabs, newlines to single space
-        self.text = " ".join(self.tokens)
+#         self.text = " ".join(self.tokens)
         self.text_backup = self.text
 
         # Current typed word and entire string
